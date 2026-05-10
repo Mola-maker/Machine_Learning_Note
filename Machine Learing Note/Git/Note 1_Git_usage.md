@@ -1,0 +1,129 @@
+**1.github code operation**
+
+	  Keep file locally, remove only from GitHub
+
+		You want the file on your computer but don't want it tracked / shown on GitHub anymore (e.g., you accidentally committed something private).
+			cd C:\Users\XXX\Documents\ObsidianVault\me
+			git rm --cached "path/to/file.md"
+			git commit -m "stop tracking file.md"
+			git push
+		and to remove folders 
+			cd C:\Users\22494\Documents\ObsidianVault\me
+			git rm -r --cached "folder-name"
+			git commit -m "stop tracking folder-name"
+			git push
+			
+		- `-r` — recursive, applies to the folder and everything inside it
+		- `--cached` — only remove from Git's tracking, do not delete from disk
+	and dont forget to add the file /folder name in .gitignore 
+	
+**2.Stack: Obsidian (local Markdown editor) + GitHub (versioning + sharing) + Obsidian Git plugin (auto-sync)**.
+		**ADV:** portable, future-proof, and shareable
+**3.MODEL of GIT :mechanism**
+	Graph:
+			
+			┌──────────────────┐     ┌──────────────────┐     ┌──────────────────┐ 
+			│  Working Tree    │ →→→ │   Index (Stage)  │ →→→ │   Repository     │
+			│  (your files)    │     │  (.git/index)    │     │  (.git/objects)  │
+			└──────────────────┘     └──────────────────┘     └──────────────────┘
+			       ↓                         ↓                         ↓
+			  what you edit             what's "staged          permanent history
+			  in your editor          for the next commit"      of all commits
+		
+		so 3 parts :woking tree index(catche,Lives in a single file: `.git/index`) and repo
+			1.git add. moves changes from working trees ->index 
+			2.git commit move index to the repo 
+			3.git push 
+			4.git pull
+			5.git rm file.md remove both 
+			6.git tm --cached file.md  (rm index only,del in cloud)
+			7.git diff -> show diff between tree and index 
+			8.git diff --cached -> show diff between last commit and now index  
+		contents of index :
+			file path                   → content hash      → metadata
+			README.md                   → a1b2c3...         → mode, size, mtime
+			notes/math.md               → d4e5f6...         → mode, size, mtime
+			adas/lane_detect.py         → 7g8h9i...         → mode, size, mtime
+					claude says :. When you `git add file.md`, Git:
+									1. Reads the file content.
+									2. Hashes it (SHA-1, e.g. `a1b2c3...`).
+									3. Stores the content as an "object" in 
+									`.git/objects/`.
+									4. Updates the index entry for that filename
+									 to point at the new hash.
+			9.git commit :take a snapshot of the  index 
+			10.git status :
+			`git status` is just reporting which bucket each file is in:
+
+			- Untracked — exists on disk, not in index (new file Git has never 
+			- seen)
+			- Modified — in index, but working tree version differs
+			- Staged — index version differs from last commit
+			- Clean — working tree, index, and last commit all match
+			11.### The repository: how commits chain Inside `.git/objects/` Git 
+			stores four kinds of objects, each identified by a SHA-1 hash:
+
+			- **blob** — the contents of one file
+			- **tree** — a directory listing (filenames + blob hashes + sub-tree 
+			- hashes)
+			- **commit** — a snapshot pointer (root tree hash + parent commit hash 
+			+ author + message)
+			- **tag** — a named pointer to a commit (for releases)
+			- 
+			-   tree    a1b2c3...     (snapshot of all files)
+				parent  9f8e7d...     (the previous commit)
+				author  Mola-maker <email> 1715000000
+				committer Mola-maker <email> 1715000000
+				
+				vault backup: 2026-05-10
+			12.HEAD id a pointer to current loc.
+			`git diff HEAD` means "diff against the latest commit." `HEAD~1` means
+			"one commit before HEAD."When you do `git reset --hard HEAD`, you're 
+			saying "throw out everything not committed and reset to the latest 
+			committed snapshot."
+**4.The core commands, mapped to the model
+
+Now every command makes sense as a movement between the three places:
+
+| Command                       | What it moves                                                         |
+| ----------------------------- | --------------------------------------------------------------------- |
+| `git add <file>`              | Working tree → Index                                                  |
+| `git add .`                   | All changes in working tree → Index                                   |
+| `git commit -m "msg"`         | Index → Repository (creates new commit)                               |
+| `git commit -am "msg"`        | Working tree → Index → Repository (one shot, tracked files only)      |
+| `git rm <file>`               | Removes from working tree AND index                                   |
+| `git rm --cached <file>`      | Removes from index only (file stays in working tree)                  |
+| `git checkout <file>`         | Repository (last commit) → Working tree (discards your changes)       |
+| `git restore <file>`          | Same as above (newer syntax)                                          |
+| `git restore --staged <file>` | Index → "unstaged" (un-does `git add`)                                |
+| `git reset <file>`            | Same as `restore --staged` (older syntax)                             |
+| `git reset --hard`            | Repository → Index AND Working tree (nuclear: discards everything)    |
+| `git status`                  | Compare working tree, index, and last commit; report differences      |
+| `git diff`                    | Show: working tree vs. index                                          |
+| `git diff --cached`           | Show: index vs. last commit                                           |
+| `git diff HEAD`               | Show: working tree vs. last commit                                    |
+| `git log`                     | List commits in the repository                                        |
+| `git push`                    | Local repository → remote repository (GitHub)                         |
+| `git pull`                    | Remote repository → local repository → working tree (= fetch + merge) |
+| `git fetch`                   | Remote repository → local repository (without touching working tree)  |
+| `git clone <url>`             | Download a remote repo + working tree, in one step                    |
+| `git branch <name>`           | Create a new pointer at the current commit                            |
+| `git checkout <branch>`       | Move HEAD pointer to that branch; update working tree                 |
+| `git merge <branch>`          | Combine another branch's history into the current one                 |
+**5.How to verify the model is correct
+
+The terminal commands will make the three-places model concrete:
+
+```powershell
+# 1. See current state across all three places
+git status
+
+# 2. Look inside the index (binary, but git can list it)
+git ls-files
+
+# 3. Look at recent commits in the repository
+git log --oneline -5
+
+# 4. See raw objects stored in the repo
+dir .git\objects
+```
