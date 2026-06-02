@@ -1,0 +1,258 @@
+{
+  "main": {
+    "id": "8ca79af3d0f5314e",
+    "type": "split",
+    "children": [
+      {
+        "id": "73b27063fd9b9bd4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2820d0f7cb135517",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "README"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "10e8a27b0b3c71f8",
+    "type": "split",
+    "children": [
+      {
+        "id": "a4b91c86eeca883f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3f01d8c9513dbc51",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "9383b4a868a1f21e",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "5b4c3a61324fc320",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "144cdb1216315473",
+    "type": "split",
+    "children": [
+      {
+        "id": "ae2b1d4f5dc7ca52",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6aeaccfa905b5378",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "READ.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "READ 的反向链接列表"
+            }
+          },
+          {
+            "id": "a50b31ee99572353",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "READ.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "READ 的出链列表"
+            }
+          },
+          {
+            "id": "3e3c68c6a886cb66",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "6757c4363b1c7eab",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "c344ade3628e8dab",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "READ.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "READ 的大纲"
+            }
+          },
+          {
+            "id": "e6d6ce965fd549d0",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "calendar"
+            }
+          },
+          {
+            "id": "ce5c10461ee0bebb",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "关系图谱"
+            }
+          },
+          {
+            "id": "90e4f1996889efa4",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 7
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:新建数据库": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "ce5c10461ee0bebb",
+  "lastOpenFiles": [
+    "README.md",
+    "02_paperML/10-generative-models/61-Rombach2021-LatentDiffusion.pdf",
+    "02_paperML/10-generative-models/60-Song2020-DDIM.pdf",
+    "02_paperML/10-generative-models/63-Peebles2022-DiT.pdf",
+    "02_paperML/10-generative-models/62-Ho2022-ClassifierFreeGuidance.pdf",
+    "02_paperML/10-generative-models/57-Goodfellow2014-GAN.pdf",
+    "02_paperML/10-generative-models/59-Ho2020-DDPM.pdf",
+    "02_paperML/10-generative-models/58-Karras2018-StyleGAN.pdf",
+    "02_paperML/10-generative-models/56-Kingma2013-VAE.pdf",
+    "02_paperML/10-generative-models",
+    "02_paperML/09-reinforcement-learning/54-Silver2017-AlphaZero.pdf",
+    "02_paperML/03-vision-cnns/12-Szegedy2014-GoogLeNet.md",
+    "02_paperML/03-vision-cnns/11-Simonyan2014-VGG.md",
+    "02_paperML/02-training-toolkit/10-Ba2016-LayerNorm.md",
+    "02_paperML/02-training-toolkit/09-Kingma2014-Adam.md",
+    "02_paperML/02-training-toolkit/08-Ioffe2015-BatchNorm.md",
+    "02_paperML/02-training-toolkit/07-Srivastava2014-Dropout.md",
+    "02_paperML/02-training-toolkit/06-Krizhevsky2012-AlexNet.md",
+    "02_paperML/01-foundations/05-Glorot2010-XavierInit.md",
+    "02_paperML/01-foundations/04-Hinton2006-DBN.md",
+    "02_paperML/01-foundations/03-Hochreiter1997-LSTM.md",
+    "02_paperML/01-foundations/01-Rumelhart1986-Backprop.md",
+    "02_paperML/01-foundations/02-LeCun1998-LeNet.md",
+    "02_paperML/CLAUDE.md",
+    "01_Machine Learing Note/html_stack_learning/LEARNING.md",
+    "Personal/Ansropic的工作流.md",
+    "Personal/web前端+后端处理.md",
+    "markdown-flowchart-1080.webp",
+    "2026-05-14.md",
+    "01_Machine Learing Note/Markdown/Syntax.md",
+    "2026-05-11.md",
+    "2026-05-15.md",
+    "01_Machine Learing Note/Git/Note 2_SHA-1.md",
+    "READ.md",
+    "01_Machine Learing Note/Git/Note 1_Git_usage.md",
+    "2026-05-10.md",
+    "未命名.canvas",
+    "未命名 1.canvas"
+  ]
+}
