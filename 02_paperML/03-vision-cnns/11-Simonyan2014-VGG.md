@@ -1,3 +1,11 @@
+---
+title: "VGG：用最朴素的 3×3 堆叠，证明\"深度就是力量\""
+tags: [视觉CNN]
+created: 2026-06-02
+updated: 2026-10-19
+status: draft
+---
+
 # VGG：用最朴素的 3×3 堆叠，证明"深度就是力量"
 **Very Deep Convolutional Networks for Large-Scale Image Recognition**
 Simonyan & Zisserman (Oxford VGG) · *ICLR 2015* · arXiv:1409.1556

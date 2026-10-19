@@ -1,3 +1,11 @@
+---
+title: "反向传播：让网络学会\"表示\""
+tags: [地基]
+created: 2026-06-02
+updated: 2026-10-19
+status: draft
+---
+
 # 反向传播：让网络学会"表示"
 **Learning representations by back-propagating errors**
 Rumelhart, Hinton & Williams · *Nature* 323, 533–536 · 1986-10-09

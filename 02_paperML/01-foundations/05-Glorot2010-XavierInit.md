@@ -1,3 +1,11 @@
+---
+title: "Xavier 初始化：让深层网络从第一步就训得动"
+tags: [地基]
+created: 2026-06-02
+updated: 2026-10-19
+status: draft
+---
+
 # Xavier 初始化：让深层网络从第一步就训得动
 **Understanding the difficulty of training deep feedforward neural networks**
 Glorot & Bengio · *AISTATS 2010* · PMLR 9:249–256

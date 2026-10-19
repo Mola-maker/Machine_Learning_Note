@@ -1,3 +1,11 @@
+---
+title: "批归一化：把\"方差守恒\"从初始化扩展到训练全程"
+tags: [训练工具箱]
+created: 2026-06-02
+updated: 2026-10-19
+status: draft
+---
+
 # 批归一化：把"方差守恒"从初始化扩展到训练全程
 **Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift**
 Ioffe & Szegedy (Google) · *ICML 2015* · arXiv:1502.03167

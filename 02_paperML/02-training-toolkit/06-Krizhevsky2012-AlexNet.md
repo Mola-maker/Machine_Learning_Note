@@ -1,3 +1,11 @@
+---
+title: "AlexNet：点燃深度学习革命的那一声爆炸"
+tags: [训练工具箱]
+created: 2026-06-02
+updated: 2026-10-19
+status: draft
+---
+
 # AlexNet：点燃深度学习革命的那一声爆炸
 **ImageNet Classification with Deep Convolutional Neural Networks**
 Krizhevsky, Sutskever & Hinton · *NeurIPS 2012* · NIPS 25:1097–1105

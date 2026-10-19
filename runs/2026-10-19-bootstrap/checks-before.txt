@@ -1,0 +1,96 @@
+===== check_deadlinks =====
+死链 1 处
+  2026-05-14.md:5: [[markdown-flowchart-1080.webp]]
+===== check_frontmatter =====
+frontmatter 问题 37 篇
+  2026-05-10.md: 无 frontmatter
+  2026-05-11.md: 无 frontmatter
+  2026-05-14.md: 无 frontmatter
+  2026-05-15.md: 无 frontmatter
+  01_Machine Learing Note/Git/Note 1_Git_usage.md: 无 frontmatter
+  01_Machine Learing Note/Git/Note 2_SHA-1.md: 无 frontmatter
+  01_Machine Learing Note/Markdown/Syntax.md: 无 frontmatter
+  01_Machine Learing Note/html_stack_learning/LEARNING.md: 无 frontmatter
+  02_paperML/AI_Reading_Roadmap.md: 无 frontmatter
+  02_paperML/CLAUDE.md: 无 frontmatter
+  02_paperML/01-foundations/01-Rumelhart1986-Backprop.md: 无 frontmatter
+  02_paperML/01-foundations/02-LeCun1998-LeNet.md: 无 frontmatter
+  02_paperML/01-foundations/03-Hochreiter1997-LSTM.md: 无 frontmatter
+  02_paperML/01-foundations/04-Hinton2006-DBN.md: 无 frontmatter
+  02_paperML/01-foundations/05-Glorot2010-XavierInit.md: 无 frontmatter
+  02_paperML/02-training-toolkit/06-Krizhevsky2012-AlexNet.md: 无 frontmatter
+  02_paperML/02-training-toolkit/07-Srivastava2014-Dropout.md: 无 frontmatter
+  02_paperML/02-training-toolkit/08-Ioffe2015-BatchNorm.md: 无 frontmatter
+  02_paperML/02-training-toolkit/09-Kingma2014-Adam.md: 无 frontmatter
+  02_paperML/02-training-toolkit/10-Ba2016-LayerNorm.md: 无 frontmatter
+  02_paperML/03-vision-cnns/11-Simonyan2014-VGG.md: 无 frontmatter
+  02_paperML/03-vision-cnns/12-Szegedy2014-GoogLeNet.md: 无 frontmatter
+  Python/未命名.md: 无 frontmatter
+  skills/using-note-skills/SKILL.md: 缺字段 title,tags,created,updated,status
+  skills/ingest-note/SKILL.md: 缺字段 title,tags,created,updated,status
+  skills/polish-language/SKILL.md: 缺字段 title,tags,created,updated,status
+  skills/link-weaver/SKILL.md: 缺字段 title,tags,created,updated,status
+  skills/formula-guard/SKILL.md: 缺字段 title,tags,created,updated,status
+  skills/review-note/SKILL.md: 缺字段 title,tags,created,updated,status
+  skills/weekly-evolve/SKILL.md: 缺字段 title,tags,created,updated,status
+  skills/note-value-rank/SKILL.md: 缺字段 title,tags,created,updated,status
+  wiki/Home.md: 无 frontmatter
+  wiki/教学路径.md: 无 frontmatter
+  wiki/价值排序说明.md: 无 frontmatter
+  wiki/教学成果精选.md: 无 frontmatter
+  wiki/自迭代日志.md: 无 frontmatter
+  wiki/_Sidebar.md: 无 frontmatter
+===== check_index =====
+章节笔记 9 篇，未入索引 8 篇
+  02_paperML/CLAUDE.md
+  Python/未命名.md
+  wiki/Home.md
+  wiki/_Sidebar.md
+  wiki/价值排序说明.md
+  wiki/教学成果精选.md
+  wiki/教学路径.md
+  wiki/自迭代日志.md
+===== check_glossary =====
+GLOSSARY 已收录 10 条；高频未收录术语 39 个（出现≥3次，前40）
+  adam ×67
+  transformer ×65
+  inception ×44
+  cluster ×43
+  xavier ×43
+  hinton ×36
+  section ×27
+  figure ×20
+  var ×19
+  big ×16
+  linear ×15
+  index ×14
+  he ×13
+  paper ×12
+  year ×12
+  original source ×12
+  rumelhart ×12
+  table ×11
+  working tree ×10
+  repository ×10
+  sequential ×10
+  python ×9
+  schmidhuber ×9
+  you need ×8
+  bengio ×8
+  ba ×8
+  tanh ×8
+  wu ×8
+  git ×7
+  attention is all ×7
+  szegedy ×7
+  glorot ×7
+  pre ×7
+  fig ×7
+  users ×6
+  show ×6
+  he et al ×6
+  net ×6
+  faster ×6
+===== check_secrets =====
+疑似密钥/隐私 0 处
+===== 汇总：有检查未通过 =====

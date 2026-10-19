@@ -1,4 +1,6 @@
-
 .trash/
-
 Personal
+node_modules/
+dist/
+*.tsbuildinfo
+.obsidian/workspace*

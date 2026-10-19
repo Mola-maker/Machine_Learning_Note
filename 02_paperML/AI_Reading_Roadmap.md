@@ -1,3 +1,11 @@
+---
+title: "AI Reading Roadmap — 72 Landmark Papers with Original Sources"
+tags: [笔记]
+created: 2026-06-02
+updated: 2026-10-19
+status: draft
+---
+
 # AI Reading Roadmap — 72 Landmark Papers with Original Sources
 
 > Curated 2026-05-19. Every link points to the original preprint or journal version.

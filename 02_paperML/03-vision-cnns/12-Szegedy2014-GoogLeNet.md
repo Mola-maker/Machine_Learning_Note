@@ -1,3 +1,11 @@
+---
+title: "GoogLeNet / Inception：用\"精巧模块\"而非\"朴素堆叠\"把网络做深"
+tags: [视觉CNN]
+created: 2026-06-02
+updated: 2026-10-19
+status: draft
+---
+
 # GoogLeNet / Inception：用"精巧模块"而非"朴素堆叠"把网络做深
 **Going deeper with convolutions**
 Szegedy et al. (Google) · *CVPR 2015* · arXiv:1409.4842

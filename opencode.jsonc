@@ -1,0 +1,8 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  // 本仓库的技能在 skills/ 下（单一事实源），通过 skills.paths 直接加载，
+  // 不再使用 .opencode/skills 软链（快照推送与 Windows 检出都不友好）。
+  "skills": {
+    "paths": ["./skills"]
+  }
+}

@@ -1,3 +1,11 @@
+---
+title: "Syntax"
+tags: [工具]
+created: 2026-05-14
+updated: 2026-10-19
+status: draft
+---
+
 #Headings 
 The number of # you use will determine the hierarchy level and typeface size of the heading.
 ‘’‘ # ## ###’‘’

@@ -1,0 +1,61 @@
+===== check_deadlinks =====
+死链 0 处
+===== check_frontmatter =====
+frontmatter 问题 1 篇
+  Python/未命名.md: 无 frontmatter
+===== check_index =====
+内容笔记 22 篇，未入索引 1 篇
+  Python/未命名.md
+===== check_glossary =====
+GLOSSARY 已收录 10 条；高频未收录术语 39 个（出现≥3次，前40）
+  software ×384
+  license ×318
+  copyright ×166
+  the ×142
+  by ×140
+  permission is hereby ×128
+  the above copyright ×128
+  software without restriction ×124
+  patch changes ×104
+  adam ×75
+  transformer ×69
+  documentation ×64
+  software is ×64
+  software is furnished ×60
+  node ×56
+  inception ×46
+  repository ×45
+  xavier ×45
+  cluster ×43
+  daniel tschinder ×42
+  hinton ×36
+  code ×35
+  jon schlinkert ×30
+  input ×29
+  example ×28
+  section ×28
+  usage ×28
+  version ×28
+  array ×28
+  install ×27
+  output ×25
+  object input x ×25
+  installation ×24
+  ich ×24
+  note ×23
+  object ×23
+  for example ×22
+  brian ng ×22
+  sindre sorhus ×22
+===== check_secrets =====
+疑似密钥/隐私 0 处
+===== 汇总：有检查未通过 =====
+
+[已知保留项] Python/未命名.md 为 0 字节空文件：frontmatter 与索引两项各计 1 处，是否删除待用户确认，其余内容笔记已全部达标。
+[基线对比] 死链 1→0（原 1 处经核实为检查器口径误报：图片 markdown-flowchart-1080.webp 实存于 git 追踪清单）；
+frontmatter 内容笔记缺失 37→0（另补 3 个簇的 00 本章索引.md）；未入索引 真实笔记 全部清零；密钥 0→0；
+GLOSSARY 高频未收录术语 39 个，留作下一轮术语扩充任务。
+[检查器修正记录] check_deadlinks 改以 git ls-files 为链接目标全集；check_index 重写为两遍扫描并区分基础设施；
+check_frontmatter/check_secrets 统一排除依赖与基础设施目录；新增 checks/fix_frontmatter.py（确定性补全工具）。
+[本轮产出] runs/value-rank-2026-10-19.md（12 篇五维价值排序 + 待读优先级）、runs/teaching-highlights-2026-10-19.md（Top 8），
+并已同步 site/src/data/*.json 与 wiki/教学成果精选.md；教学站 vite build 验证通过。

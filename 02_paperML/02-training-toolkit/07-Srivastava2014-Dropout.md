@@ -1,3 +1,11 @@
+---
+title: "Dropout：用\"随机删神经元\"训练指数级的模型集成"
+tags: [训练工具箱]
+created: 2026-06-02
+updated: 2026-10-19
+status: draft
+---
+
 # Dropout：用"随机删神经元"训练指数级的模型集成
 **Dropout: A Simple Way to Prevent Neural Networks from Overfitting**
 Srivastava, Hinton, Krizhevsky, Sutskever & Salakhutdinov · *JMLR* 15:1929–1958 · 2014

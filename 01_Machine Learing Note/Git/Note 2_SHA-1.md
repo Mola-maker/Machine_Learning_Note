@@ -1,3 +1,11 @@
+---
+title: "Note 2_SHA-1"
+tags: [工具]
+created: 2026-05-11
+updated: 2026-10-19
+status: draft
+---
+
 1. stand for :Secure Hash Algorithm, 1st version
 2. functions:
 	1. takes any input (a single character, a 10GB file, anything) and produces a fixed 160-bit output, written as 40 hex characters(16)

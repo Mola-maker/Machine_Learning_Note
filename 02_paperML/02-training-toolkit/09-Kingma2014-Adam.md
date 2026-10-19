@@ -1,3 +1,11 @@
+---
+title: "Adam：给每个参数一个自适应的步长"
+tags: [训练工具箱]
+created: 2026-06-02
+updated: 2026-10-19
+status: draft
+---
+
 # Adam：给每个参数一个自适应的步长
 **Adam: A Method for Stochastic Optimization**
 Kingma & Ba · *ICLR 2015* · arXiv:1412.6980

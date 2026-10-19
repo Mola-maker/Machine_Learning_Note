@@ -1,3 +1,11 @@
+---
+title: "深度信念网络：点燃\"深度学习\"这个词的论文"
+tags: [地基]
+created: 2026-06-02
+updated: 2026-10-19
+status: draft
+---
+
 # 深度信念网络：点燃"深度学习"这个词的论文
 **A fast learning algorithm for deep belief nets**
 Hinton, Osindero & Teh · *Neural Computation* 18(7), 1527–1554 · 2006

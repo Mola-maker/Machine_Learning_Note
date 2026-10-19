@@ -1,3 +1,11 @@
+---
+title: "1. See current state across all three places"
+tags: [工具]
+created: 2026-05-11
+updated: 2026-10-19
+status: draft
+---
+
 **1.github code operation**
 
 	  Keep file locally, remove only from GitHub

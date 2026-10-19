@@ -1,3 +1,11 @@
+---
+title: "层归一化：把 BatchNorm 转置，造出 Transformer 时代的标准件"
+tags: [训练工具箱]
+created: 2026-06-02
+updated: 2026-10-19
+status: draft
+---
+
 # 层归一化：把 BatchNorm 转置，造出 Transformer 时代的标准件
 **Layer Normalization**
 Ba, Kiros & Hinton · arXiv:1607.06450 · 2016

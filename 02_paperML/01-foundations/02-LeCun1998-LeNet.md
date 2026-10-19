@@ -1,3 +1,11 @@
+---
+title: "LeNet：把反向传播折进二维卷积"
+tags: [地基]
+created: 2026-06-02
+updated: 2026-10-19
+status: draft
+---
+
 # LeNet：把反向传播折进二维卷积
 **Gradient-Based Learning Applied to Document Recognition**
 LeCun, Bottou, Bengio & Haffner · *Proceedings of the IEEE* 86(11), 2278–2324 · 1998-11

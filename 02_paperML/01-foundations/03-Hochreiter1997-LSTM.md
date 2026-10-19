@@ -1,3 +1,11 @@
+---
+title: "LSTM：给循环网络造一条\"恒定误差传送带\""
+tags: [地基]
+created: 2026-06-02
+updated: 2026-10-19
+status: draft
+---
+
 # LSTM：给循环网络造一条"恒定误差传送带"
 **Long Short-Term Memory**
 Hochreiter & Schmidhuber · *Neural Computation* 9(8), 1735–1780 · 1997

@@ -1,0 +1,39 @@
+:root { color-scheme: light dark; --blue:#5b8def; --ink:#1c2333; }
+body { margin:0; font-family: system-ui, "PingFang SC", "Microsoft YaHei", sans-serif; color:var(--ink); }
+.page { max-width: 880px; margin: 0 auto; padding: 24px 18px 64px; }
+.hero h1 { font-size: 30px; margin: 8px 0 4px; }
+.hero p { opacity:.75; margin:0 0 8px; }
+section { margin-top: 40px; }
+h2 { font-size: 20px; border-left: 4px solid var(--blue); padding-left: 10px; }
+.diagram { margin: 12px 0; }
+.diagram svg { width: 100%; height: auto; }
+.diagram figcaption { margin-top: 8px; font-size: 14px; opacity:.9; display:flex; gap:12px; align-items:center; flex-wrap:wrap; }
+.controls button { margin-left: 8px; padding: 3px 12px; border-radius: 999px; border:1px solid var(--blue); background:transparent; color:inherit; cursor:pointer; }
+.node rect, .node circle { fill:#eef3fe; stroke:#b9ccf5; stroke-width:1.5; transition: all .5s; }
+.node-on rect, .node-on circle { fill:#d7e5ff; stroke:var(--blue); stroke-width:2.5; }
+.node-title { text-anchor:middle; font-size:16px; font-weight:700; fill:var(--ink); }
+.node-title.sm { font-size:11px; }
+.node-sub { text-anchor:middle; font-size:11px; fill:#5a6480; }
+.note-text { text-anchor:middle; font-size:12px; fill:#5a6480; }
+.desc-title { font-size:17px; font-weight:700; fill:var(--ink); }
+.svg-desc { font-size:13.5px; line-height:1.55; color:var(--ink); opacity:.85; }
+.flow { stroke:#b9ccf5; stroke-width:2; fill:none; stroke-dasharray:6 6; }
+.flow-on { stroke:var(--blue); animation: march 1s linear infinite; }
+.feedback { stroke-dasharray:4 6; }
+.loop-ring { fill:none; stroke:#dbe6fd; stroke-width:2; stroke-dasharray:3 7; }
+@keyframes march { to { stroke-dashoffset: -12; } }
+.path { list-style:none; padding:0; display:grid; gap:10px; }
+.path li { display:flex; gap:12px; align-items:flex-start; background:#f6f8fd; border-radius:12px; padding:12px 14px; }
+.path p { margin:2px 0 0; opacity:.75; font-size:14px; }
+.chip { background:var(--blue); color:#fff; border-radius:999px; padding:2px 10px; font-size:12px; white-space:nowrap; }
+.rank { width:100%; border-collapse:collapse; font-size:14px; }
+.rank th, .rank td { border-bottom:1px solid #e3e9f6; padding:8px 6px; text-align:left; vertical-align:top; }
+.cards { display:grid; grid-template-columns: repeat(auto-fill, minmax(240px,1fr)); gap:12px; }
+.card { background:#f6f8fd; border-radius:12px; padding:14px; }
+.card h3 { margin:8px 0 6px; font-size:16px; }
+.card p { margin:0; font-size:14px; opacity:.85; }
+.card footer { margin-top:8px; font-size:12px; opacity:.6; }
+@media (prefers-color-scheme: dark) {
+  .path li, .card { background:#1a2130; } .node rect, .node circle { fill:#1d2740; }
+  .rank th, .rank td { border-color:#2a3350; } :root { --ink:#e8ecf5; }
+}
